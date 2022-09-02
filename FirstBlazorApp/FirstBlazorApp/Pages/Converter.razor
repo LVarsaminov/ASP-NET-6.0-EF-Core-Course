@@ -1,0 +1,30 @@
+﻿@page "/converter"
+@using FirstBlazorApp.Data
+<PageTitle>Converter</PageTitle>
+<label>KG</label>
+<input type="number" @bind-value=@Kilos @bind-value:event="oninput">
+<span> = </span>
+<input type="number" @bind-value=@Grams @bind-value:event="oninput"/>
+<label>g</label>
+@code {
+    private double _kilos = 1;
+    private double _grams = 1000;
+
+    public double Kilos { 
+        get => _kilos;
+        set
+        {
+            _kilos = value;
+            _grams = value * 1000;
+        } 
+    }
+    public double Grams
+    {
+        get => _grams;
+        set
+        {
+            _grams = value;
+            _kilos = value / 1000;
+        }
+    }
+}
