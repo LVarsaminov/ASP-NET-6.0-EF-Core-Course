@@ -1,0 +1,16 @@
+﻿@page "/learnBlazor/demoProduct"
+<h3 class="text-primary">Demo Product</h3>
+<p>Favourites Total : @SelectedFavouriteCount</p>
+<p>Last Selected Product : @LastSelectedProductName</p>
+<div class="border p-2 mt-2" style="background-color:azure">
+    <div class="row">
+    @foreach(var product in demo_Products)
+    {
+            <_IndividualProduct Product="@product" OnFavouriteUpdate="@FavouriteCountUpdate"
+             OnLastSelectedProductChange="LastProductSelect">
+             <FirstFragment>#1</FirstFragment>
+             <SecondFragment>#2</SecondFragment>
+            </_IndividualProduct>
+    }
+    </div>
+</div> 

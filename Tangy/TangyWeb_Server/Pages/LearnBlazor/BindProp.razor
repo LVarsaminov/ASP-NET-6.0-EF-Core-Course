@@ -1,0 +1,79 @@
+﻿@page "/learnBlazor/bindProp"
+
+<h2 class="text-success">Individual Product</h2>
+<div class="row">
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Playground</h3><hr />
+
+        <div>
+            Active: <input type="checkbox" @bind-value="@product.IsActive" checked="@(product.IsActive?"checked":null)" /> <br />
+        </div>
+        <div>
+            Price: <input type="number" @bind-value="@product.Price" @bind-value:event="oninput" /> <br
+        </div>
+        <div>
+            Product Properties:
+            <select @bind="_selectedProp">
+                @foreach (var prop in product.ProductProperties)
+                {
+                    <option value="@prop.Key">@prop.Key</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="col-6 border p-3">
+
+        <h3 class="text-primary">Product Summary</h3><hr />
+        Name: @product.Name<br />
+
+        Active: @product.IsActive<br />
+
+        Price: @product.Price<br />
+
+        This Product is: @(product.IsActive ? "Active" : "Inactive")<br />
+
+        Property Selected: @_selectedProp<br />
+        @if (!String.IsNullOrWhiteSpace(_selectedProp))
+        {
+            <p>Property Value: @product.ProductProperties.FirstOrDefault(p=>p.Key==_selectedProp).Value</p>
+        }
+    </div>
+
+</div>
+
+<br />
+
+<div class="col-12">   
+<h2 class="text-success">Product Table</h2>
+<table class="table table-striped">
+    <tbody>
+        @foreach (var prod in Products)
+        {
+            <tr>
+                    <td>
+                        <td><input type="text" @bind-value="prod.Name" @bind-value:event="oninput" /></td>
+                    </td>
+                    <td>
+                        <td><input type="number" @bind-value="prod.Price" @bind-value:event="oninput"/></td>
+                    </td>
+                    <td>
+                        <input type="checkbox" @bind-value="prod.IsActive" checked="@(prod.IsActive?"checked":null)" />
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+<br />
+
+<div>
+    <h2 class="text-black">Product Summary</h2>
+    
+    @foreach(var product in Products)
+    {
+        <p>@product.Name [@product.Price] is @(product.IsActive?"Active":"Inactive")</p>
+    }
+</div>
