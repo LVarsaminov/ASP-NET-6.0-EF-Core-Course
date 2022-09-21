@@ -1,0 +1,14 @@
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\bin\Debug\net6.0\Tangy_DataAccess.deps.json
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\bin\Debug\net6.0\Tangy_DataAccess.runtimeconfig.json
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\bin\Debug\net6.0\Tangy_DataAccess.dll
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\bin\Debug\net6.0\Tangy_DataAccess.pdb
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.csproj.AssemblyReference.cache
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.AssemblyInfoInputs.cache
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.AssemblyInfo.cs
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.csproj.CoreCompileInputs.cache
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.dll
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\refint\Tangy_DataAccess.dll
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.pdb
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\Tangy_DataAccess.genruntimeconfig.cache
+D:\Visual Studio projects\Tangy\Tangy_DataAccess\obj\Debug\net6.0\ref\Tangy_DataAccess.dll

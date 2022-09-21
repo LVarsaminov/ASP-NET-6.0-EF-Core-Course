@@ -1,0 +1,12 @@
+D:\Visual Studio projects\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.deps.json
+D:\Visual Studio projects\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.dll
+D:\Visual Studio projects\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.pdb
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.csproj.AssemblyReference.cache
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.AssemblyInfoInputs.cache
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.AssemblyInfo.cs
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.csproj.CoreCompileInputs.cache
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.dll
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\refint\Tangy_Common.dll
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.pdb
+D:\Visual Studio projects\Tangy\Tangy_Common\obj\Debug\net6.0\ref\Tangy_Common.dll
